@@ -60,6 +60,8 @@ function BackendApi() {
       <h3>Create Item Endpoint:</h3>
       <input
         type="text"
+        id="itemName"
+        name="itemName"
         placeholder="Item Name"
         value={itemName}
         onChange={(e) => setItemName(e.target.value)}
