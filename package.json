@@ -2,7 +2,7 @@
   "name": "temp_react_app",
   "version": "0.1.0",
   "private": true,
-    "dependencies": {
+  "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.4",
     "@testing-library/react": "^16.3.0",
@@ -13,7 +13,12 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "dotenv-cli": "^7.4.2"
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "dotenv-cli": "^7.4.2",
+    "typescript": "^5.9.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,7 +26,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-
   "eslintConfig": {
     "extends": [
       "react-app",
