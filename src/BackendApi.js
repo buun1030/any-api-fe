@@ -22,7 +22,7 @@ function BackendApi() {
         console.error('Error fetching hello message:', error);
         setError('Failed to fetch hello message.');
       });
-  }, []);
+  }, [backendUrl]);
 
   const handleCreateItem = async () => {
     try {
