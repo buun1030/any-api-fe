@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './yoshi3.svg';
 import styles from './App.module.css';
 
 import BackendApi from './BackendApi';
@@ -10,15 +10,15 @@ const App: React.FC = () => {
       <header className={styles['App-header']}>
         <img src={logo} className={styles['App-logo']} alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Welcome to the Dragon Riders' Outpost!
         </p>
         <a
           className={styles['App-link']}
-          href="https://reactjs.org"
+          href="https://www.dreamworks.com/how-to-train-your-dragon"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn About Dragons
         </a>
         <BackendApi />
       </header>
